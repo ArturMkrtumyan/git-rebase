@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class RebaseController {
     @GetMapping
     public String message(){
-        System.out.printf("added by Moderator");
         System.out.printf("added by Admin");
         return "rebase example by User";
     }
