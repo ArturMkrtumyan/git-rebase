@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class RebaseController {
     @GetMapping
     public String message(){
-        return "rebase example";
+        return "rebase example by Person local";
     }
 }
